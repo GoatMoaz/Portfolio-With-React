@@ -1,0 +1,39 @@
+[
+  {
+    "title": "Nuxt Dojo Merch",
+    "imageSrc": "projects/nuxt-dojo.png",
+    "description": "This is a modern e-commerce site, offering a streamlined shopping experience.",
+    "skills": [
+      "Nuxt",
+      "Tailwindcss",
+      "API",
+      "JavaScript"
+    ],
+    "demo": "https://nuxt-dojo-merch.netlify.app/",
+    "source": "https://github.com/GoatMoaz/Nuxt-Dojo"
+  },
+  {
+    "title": "Gradient Text Generator",
+    "imageSrc": "projects/gtg.png",
+    "description": "This is a tool designed to create visually appealing gradient text for various applications.",
+    "skills": [
+      "Nuxt",
+      "Tailwindcss",
+      "JavaScript"
+    ],
+    "demo": "https://gradient-text-generator.netlify.app/",
+    "source": "https://github.com/GoatMoaz/Gradient-Text-Generator"
+  },
+  {
+    "title": "Tic Tac Toe",
+    "imageSrc": "projects/tic-tac-toe.png",
+    "description": "This Tic Tac Toe game is a classic two-player game built with HTML, CSS, and JavaScript",
+    "skills": [
+      "HTML",
+      "CSS",
+      "JavaScript"
+    ],
+    "demo": "https://goatmoaz.github.io/Tic-Tac-Toe/",
+    "source": "https://github.com/GoatMoaz/Tic-Tac-Toe"
+  }
+]
