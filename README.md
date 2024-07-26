@@ -53,6 +53,7 @@ This is a portfolio project built using React. It showcases your work, skills, a
    ```bash
    yarn dev
    ```
+4. Open your browser and navigate to `http://localhost:5173` to see the app running.
 
 ## Contributing
 
