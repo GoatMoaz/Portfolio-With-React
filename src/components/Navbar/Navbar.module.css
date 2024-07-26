@@ -17,12 +17,12 @@
   color: var(--color-text);
 }
 
-.menuBtn {
-  display: none;
-}
-
 .menu {
   display: flex;
+}
+
+.menuBtn {
+  display: none;
 }
 
 .menuItems {

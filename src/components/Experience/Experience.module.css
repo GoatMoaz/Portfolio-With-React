@@ -17,11 +17,12 @@
   margin-bottom: 20px;
 }
 
-.skills {
-  width: 45%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.Slider {
+  cursor: grab;
+}
+
+.Slider:active {
+  cursor: grabbing;
 }
 
 .skill {
@@ -48,32 +49,6 @@
 
 .skillImageContainer img {
   width: 75px;
-}
-
-.skill p {
-  font-size: 25px;
-  font-family: var(--font-roboto);
-  font-weight: 500;
-}
-
-.Slider {
-  cursor: grab;
-}
-.Slider:active {
-  cursor: grabbing;
-}
-
-.slick-list {
-  margin: 0;
-  padding: 0;
-}
-
-@media screen and (max-width: 830px) {
-  .skills {
-    width: 100%;
-    flex-direction: row;
-    justify-content: center;
-  }
 }
 
 @media screen and (max-width: 425px) {

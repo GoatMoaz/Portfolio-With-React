@@ -21,8 +21,6 @@ export const Hero = () => {
         alt="Hero image of me"
         className={styles.heroImg}
       />
-      <div className={styles.topBlur} />
-      <div className={styles.bottomBlur} />
     </section>
   );
 };
