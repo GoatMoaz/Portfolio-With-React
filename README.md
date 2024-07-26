@@ -30,8 +30,9 @@ This is a portfolio project built using React. It showcases your work, skills, a
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/your-portfolio.git
-   cd your-portfolio
+   git clone https://github.com/GoatMoaz/Portfolio-With-React.git
+
+   cd Portfolio-With-React
    ```
 2. Install dependencies:
    ```bash
@@ -42,14 +43,16 @@ This is a portfolio project built using React. It showcases your work, skills, a
    yarn install
    ```
 3. Start the development server:
-    ```bash
-    npm run dev
-    ```
-    or
 
-    ```bash
-    yarn dev
-    ```
+   ```bash
+   npm run dev
+   ```
+
+   or
+
+   ```bash
+   yarn dev
+   ```
 
 ## Contributing
 
