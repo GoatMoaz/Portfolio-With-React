@@ -1,4 +1,4 @@
-# Portfolio Project using React
+# Portfolio using React
 
 This README provides an overview of the basic configurations and setup for a portfolio project built using React.
 
