@@ -2,31 +2,22 @@ import React from "react";
 
 import styles from "./About.module.css";
 import { getImageUrl } from "../../utils";
-import ScrollAnimation from "react-animate-on-scroll";
+import { Slide } from "react-awesome-reveal";
 
 export const About = () => {
   return (
     <section className={styles.container} id="about">
       <h2 className={styles.title}>About</h2>
       <div className={styles.content}>
-        <ScrollAnimation
-          animateIn="fadeInLeft"
-          animateOut="fadeOut"
-          duration={1.3}
-          animateOnce={true}
-        >
+        <Slide direction="left" duration={1200} triggerOnce>
           <img
             src={getImageUrl("about/about.png")}
             alt="Me sitting with a laptop"
             className={styles.aboutImage}
           />
-        </ScrollAnimation>
-        <ScrollAnimation
-          animateIn="fadeInRight"
-          animateOut="fadeOut"
-          duration={1.3}
-          animateOnce={true}
-        >
+        </Slide>
+
+        <Slide direction="right" triggerOnce duration={1200}>
           <ul className={styles.aboutItems}>
             <li className={styles.aboutItem}>
               <img
@@ -55,7 +46,7 @@ export const About = () => {
               </div>
             </li>
           </ul>
-        </ScrollAnimation>
+        </Slide>
       </div>
     </section>
   );

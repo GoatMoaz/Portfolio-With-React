@@ -8,13 +8,17 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
+import { Fade } from "react-awesome-reveal";
+
 export const Experience = () => {
   return (
     <section className={styles.container} id="experience">
-      <h2 className={styles.title}>Skills</h2>
+      <Fade triggerOnce>
+        <h2 className={styles.title}>Skills</h2>
+      </Fade>
       <Slider
         centerMode={true}
-        className= {styles.Slider}
+        className={styles.Slider}
         infinite={true}
         slidesToShow={4}
         autoplay={true}

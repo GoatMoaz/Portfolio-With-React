@@ -7,7 +7,7 @@ export const ProjectCard = ({
   project: { title, imageSrc, description, skills, demo, source },
 }) => {
   return (
-    <div className={styles.container}>
+    <li className={styles.container}>
       <img
         src={getImageUrl(imageSrc)}
         alt={`Image of ${title}`}
@@ -34,6 +34,6 @@ export const ProjectCard = ({
           </a>
         </div>
       </div>
-    </div>
+    </li>
   );
 };
